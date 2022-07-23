@@ -103,13 +103,20 @@ header {
     line-height: 1.2em;
 }
 
-.btn {
+.button {
     color:#fff;
     background: #3882f6;
     padding: 8px 24px;
     border-radius: 5px;
     border-style: none;
 }
+
+.button a {
+    color: #fff;
+    font-weight: bold;
+}
+
+
 
 .hero-image  {
     width: 60%;
@@ -140,6 +147,8 @@ header {
     display: flex;
     gap: 32px;
     padding: 32px;
+    flex-wrap: wrap;
+
 
 }
 .card {
@@ -174,34 +183,91 @@ header {
 .testimony-section {
     background: #e5e7eb;
     
+   
+    
+    
 }
 .testimony {
     display: flex;
     flex-direction: column;
-    padding: 50px 0;
     justify-content: center;
     align-items: center; 
- 
+    padding: 50px 0;
+    
+
+   
 }
 
 .quote {
-    width: 900px;
+    width: 70%;
     padding: 16px;
    
 }
 .quote blockquote {
     font-style: italic;
-    font-size: 32px;
+    font-size: 30px;
     color:#1f2937;
+    white-space: wrap;
    
 }
 
 .author {
    padding: 16px;
    display: flex;
-   width: 900px;
+   width: 70%;
    justify-content: end;
    font-size: 18px;
-   font-weight: 600;
+   font-weight: 500;
    
 }
+.call-to-action-section {
+    padding: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px ;
+    margin: 16px 0;
+    width: 1000px;
+    background: #3882f6;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    
+}
+.sign-up-content {
+    padding: 24px;
+  
+}
+
+.btn-grp {
+    padding: 24px;
+  
+}
+  .btn-grp button  {
+     border: 2px solid white; 
+ }
+
+ .call-to-action-head h3{
+     color: #fff;
+     font-size: 24px;
+ }
+
+ .sign-up-content p {
+     color: #fff;
+ }
+
+ .footer-nav {
+     display: flex;
+     justify-content: center;
+     height: 72px;
+     background: #1f2937;
+     padding: 24px;
+ }
+
+ .footer-nav span {
+     color: #fff;
+ }
